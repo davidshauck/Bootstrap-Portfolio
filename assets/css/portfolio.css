@@ -1,0 +1,31 @@
+.photoGrid {
+    margin-bottom: 20px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    clear: both;
+    border-bottom: none;
+    margin-top: 30px;
+  }
+
+  img.photoImage {
+    max-width: 100%;
+    float: left;
+  }
+
+  .photoContainer {
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .text-block {
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
