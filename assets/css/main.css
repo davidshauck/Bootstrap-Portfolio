@@ -1,5 +1,5 @@
 html {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 *, *:before, *:after {
@@ -22,7 +22,7 @@ body {
 
 #name {
   float: left;
-  width: 220px;
+  width: auto;
   padding: 23px;
   text-align: center;
   background-color: #4aaaa5;
@@ -87,4 +87,8 @@ li a {
 
 a:hover {
       color: #4aaaa5;
+}
+
+.footer {
+  border-top: 8px solid #4aaaa5;
 }
