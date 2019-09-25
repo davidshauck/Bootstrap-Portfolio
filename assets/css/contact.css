@@ -20,7 +20,7 @@
     vertical-align: top;
   }
   
-  input[type=submit] {
+  .input[type=submit] {
     width: auto;
     font-size: 18px;
     background-color: #4aaaa5;
