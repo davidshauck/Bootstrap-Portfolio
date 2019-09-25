@@ -2,17 +2,7 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
-.noPad {
-  padding: 0px;
-}
-
-.noPadRight {
-  padding-right: 0px;
-}
+/* tweaks to bootstrap classes */
 
 .container-fluid {
   padding: 0px;
@@ -27,6 +17,24 @@ body {
   background: #ccc;
   margin: 0 auto;
 }
+
+.nav-item {
+  padding-right: 0px;
+}
+
+.nav-link {
+  padding-right: 0px;
+}
+
+form {
+  padding: 20px;
+}
+
+.col-md-12 {
+  padding-bottom: 20px;
+}
+
+/* main styles */
 
 #name {
   float: left;
@@ -109,12 +117,11 @@ a:hover {
 .footer {
   border-top: 8px solid #4aaaa5;
   margin-top: 20px;
-  padding: 20px; 
+  padding: 20px;
+  background-color: #777777;
 }
 
-.padBottom {
-  padding-bottom: 20px;
-}
+/* media queries */
 
 @media screen and (max-width: 900px) {
   .nav-item {
@@ -123,17 +130,5 @@ a:hover {
   li a {
     margin-right: 10px;
     padding-left: 10px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .text-block {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 468px) {
-  .text-block {
-    font-size: 22px;
   }
 }
