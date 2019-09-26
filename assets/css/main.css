@@ -7,10 +7,14 @@ html {
 .container-fluid {
   padding: 0px;
 }
+/* 
+.container {
+  padding: 0px;
+} */
 
 .row {
-  padding: 0px;
-  margin: 0;
+  /* padding: 0px; */
+  margin: 0px;
 }
 
 body {
@@ -48,6 +52,10 @@ form {
   padding-bottom: 20px;
 }
 
+.col-md-4 {
+  padding: 0px;
+}
+
 .col-sm-12 {
   padding: 0px;
 }
@@ -76,6 +84,7 @@ form {
 .aboutBox {
   margin-top: 20px;
   background-color: #ccc;
+  padding-bottom: 20px;
 }
 
 .aboutMe {
@@ -146,7 +155,7 @@ a:hover {
 
 /* media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .nav {
     float: left;
     padding: 0px;
@@ -156,6 +165,10 @@ a:hover {
   ul {
     justify-content: center !important;
   }
+  li {
+    padding: 10px 0px 10px 0px;
+  }
+  
   /* .nav-item {
     clear: all;
     padding-left: 0px !important;
