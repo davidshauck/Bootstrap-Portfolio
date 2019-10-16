@@ -122,6 +122,11 @@ a:hover {
   color: #4aaaa5;
 }
 
+.text-block:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .footer {
   border-top: 8px solid #4aaaa5;
   margin-top: 20px;
